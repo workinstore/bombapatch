@@ -1,0 +1,17 @@
+{
+  "name": "Bomba Patch Workin'",
+  "short_name": "BombaBomba Patch Workin'",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#0b0e14",
+  "theme_color": "#0b0e14",
+  "icons": [
+    {
+      "src": "fav.ico",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
