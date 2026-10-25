@@ -5,14 +5,16 @@
    ========================================================== */
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCczFv_waAwVLRbr__l1XBjMV_Id6wpnV4",
-  authDomain: "novo-games-workin.firebaseapp.com",
-  databaseURL: "https://novo-games-workin-default-rtdb.firebaseio.com",
-  projectId: "novo-games-workin",
-  storageBucket: "novo-games-workin.firebasestorage.app",
-  messagingSenderId: "470006732824",
-  appId: "1:470006732824:web:e1f5b49c356cfb2bc20b6d"
+
+  apiKey: "AIzaSyB6JOTArG7u1vbWn0gKk2Z8EAkMpuJSlnk",
+  authDomain: "novo-bomba-patch-workin.firebaseapp.com",
+  databaseURL: "https://novo-bomba-patch-workin-default-rtdb.firebaseio.com",
+  projectId: "novo-bomba-patch-workin",
+  storageBucket: "novo-bomba-patch-workin.firebasestorage.app",
+  messagingSenderId: "712724707383",
+  appId: "1:712724707383:web:1129a5b058d10bebce67b2"
 };
+
 
 
 const ADMIN_EMAIL = "admin@admin.com";
