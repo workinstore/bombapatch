@@ -1,8 +1,8 @@
 {
   "name": "Bomba Patch Workin'",
   "short_name": "Bomba Patch Workin'",
-  "start_url": "/bombapatch",
-  "scope": "/bombapatch",
+  "start_url": "/",
+  "scope": "/",
   "display": "standalone",
   "background_color": "#0b0e14",
   "theme_color": "#0b0e14",
