@@ -382,12 +382,16 @@ $("#login-form").addEventListener("submit", async e => {
   const msg = $("#login-msg");
   msg.textContent = "";
   if (email !== ADMIN_EMAIL) { msg.textContent = "Acesso negado."; return; }
+  const overlay = $("#login-overlay");
+  const btn = $("#login-form button[type=submit]");
+  overlay.hidden = false; btn.disabled = true;
   try {
     await auth.signInWithEmailAndPassword(email, $("#login-pass").value);
     $("#login-modal").hidden = true;
     $("#login-form").reset();
     openAdmin();
   } catch (err) { msg.textContent = "E-mail ou senha inválidos."; }
+  finally { overlay.hidden = true; btn.disabled = false; }
 });
 
 $$("[data-close]").forEach(b => b.addEventListener("click", () => (b.closest(".modal").hidden = true)));
