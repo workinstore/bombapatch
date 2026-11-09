@@ -316,3 +316,6 @@ textarea.code { font-family: monospace; font-size: 14px; min-height: 260px; }
 .login-overlay[hidden] { display: none; }
 .login-overlay .loader { margin: 0; width: 56px; height: 56px; }
 .login-overlay p { color: var(--text); font-family: Orbitron, sans-serif; letter-spacing: 2px; margin: 0; }
+
+/* Rascunhos */
+.draft-badge { display: inline-block; font-size: 11px; padding: 2px 8px; margin-right: 6px; border: 1px solid var(--accent); color: var(--accent); border-radius: 4px; text-transform: uppercase; letter-spacing: .5px; vertical-align: middle; }
